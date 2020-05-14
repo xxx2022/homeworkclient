@@ -36,7 +36,7 @@
           <el-button plain @click="open1" class="message">系统公告</el-button>
           <br/> <br/><br/>
             <!-- 更新日志显示 -->
-          <el-tooltip placement="top">
+          <el-tooltip placement="top"> 
             <div slot="content">
               2020-05-14：在密码框里面放了一个眼<br/>
               2020-05-14：手机端登录布局及输入提示优化</br>
