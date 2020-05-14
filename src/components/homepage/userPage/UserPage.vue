@@ -8,6 +8,7 @@
         <el-option value="已失效作业"></el-option>
       </el-select>
       <!-- 选择作业状态 -->
+      <span></span>
     </header>
     <main :class="[this._isMobile() ? 'mainPhone' : 'main']">
       <!-- 查看所有作业 -->

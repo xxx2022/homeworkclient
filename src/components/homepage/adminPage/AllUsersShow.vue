@@ -7,7 +7,7 @@
                  stripe
                 :class="[this._isMobile() ? 'mytablePhone' : 'mytable']"
                   v-loading="loading"
-                  
+                  show-summary
                  :data="users.filter(user =>  !searchs || user.username.toLowerCase().includes(searchs.toLowerCase()) ||user.name.toLowerCase().includes(searchs.toLowerCase()) )"
                 >
                     <el-table-column property="username" label="学号" min-width="82px" ></el-table-column>
